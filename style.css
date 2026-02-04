@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 4%;
+  padding: 20px 4%;
 }
 
 nav {
@@ -59,4 +59,103 @@ nav a:hover {
 
 .login-link:hover {
   background-color: #7630d7;
+}
+
+/* header end */
+
+/* hero section start */
+
+main {
+  padding: 0 2%;
+  background: linear-gradient(180deg, #584df5 45%, #bfabfc 80%, #ffffff 100%);
+}
+
+.main-first-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+  color: white;
+}
+
+.hero-left h1 {
+  font-size: 52px;
+  padding-bottom: 2rem;
+}
+
+.hero-left p {
+  padding-bottom: 32px;
+}
+
+.hero-left button {
+  background-color: #ffffffe5;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.hero-right video {
+  width: 48vw;
+  border-radius: 20px;
+}
+
+.hero-right {
+  position: relative;
+}
+
+.hero-right button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.678);
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-h2 {
+  text-align: center;
+  font-size: 44px;
+  padding: 20px 0;
+}
+
+.hero-options-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.hero-options {
+  background-color: white;
+  padding: 8px;
+  border-radius: 40px;
+  height: 60px;
+  display: flex;
+  gap: 60px;
+  box-shadow: 2px 2px 6px 0px #00000050;
+}
+
+.hero-options button {
+  font-size: 16px;
+  height: 100%;
+  border-radius: 45px;
+  border: none;
+  background-color: transparent;
+}
+
+.hero-options button:first-child {
+  background-image: linear-gradient(
+    98deg,
+    #00c4cc -9.02%,
+    #5a32fa 77.89%,
+    #7630d7 158.29%
+  );
+  color: white;
+  padding: 8px 16px;
 }
