@@ -314,3 +314,58 @@ main {
   bottom: 0;
   left: 20%;
 }
+
+/* image generation section end */
+
+.templates-section {
+  text-align: center;
+  padding: 0 2%;
+  margin: 50px 0;
+}
+
+.templates-section h2 {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.browse-templates-link {
+  border: 0.5px solid rgba(0, 0, 0, 0.198);
+  color: #0f1015;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+
+  /* font-weight: 600; */
+}
+
+.templates-container {
+  margin-top: 40px;
+  overflow-x: scroll;
+}
+
+.templates-container::-webkit-scrollbar {
+  display: none;
+}
+
+.templates-row-1 {
+  display: flex;
+  gap: 24px;
+  height: 50vh;
+}
+
+.templates-row-1 img,
+.templates-row-2 img {
+  border-radius: 8px;
+  border: 0.5px solid rgb(228, 228, 228);
+  flex-shrink: 0;
+}
+
+.templates-row-2 {
+  display: flex;
+  margin-top: 24px;
+  gap: 24px;
+  height: 50vh;
+}
