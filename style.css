@@ -215,3 +215,67 @@ main {
 .cloumn-2-options .bento-1-para {
   color: black;
 }
+
+/* main section end */
+
+/* image generation section start */
+
+.img-generation-section {
+  padding: 0 2%;
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-generation-left h2 {
+  font-size: 44px;
+  color: #0f1015;
+}
+
+.img-generation-left p {
+  margin: 40px 0;
+  columns: #0f1015;
+  line-height: 24px;
+  word-spacing: 2px;
+}
+
+.img-generation-left form {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.img-generation-left form input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.img-generation-left form button {
+  width: 20%;
+  padding: 10px;
+  color: white;
+  background-color: #8b3dff;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.img-generation-left,
+.img-generation-right {
+  width: 50%;
+}
+
+.img-generation-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.img-generation-right img {
+  width: 72%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 20px;
+}
